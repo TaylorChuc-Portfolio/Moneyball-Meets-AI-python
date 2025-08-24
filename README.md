@@ -12,5 +12,5 @@ The following is a video demonstration of the code in action.
 [youtube link]
 
 The AI models are trained on publicly-available replay files from tournament matches.
-The models are Long-short term memory (LSTM) recurrent neural networks (RNN), created
+The models are Long-short term memory (LSTM) recurrent neural networks (RNN) created
 using the TensorFlow framework, specifically the Keras library. 
