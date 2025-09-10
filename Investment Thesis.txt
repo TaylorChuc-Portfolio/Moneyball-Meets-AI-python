@@ -1,0 +1,34 @@
+Training models based on quarterly report data is fraught with problems and quickly surpasses a minimum viable product that a single person can handle
+High quality, up to date data is expensive. Having it standardized across time and companies is miserable.
+Yet, you need a critical mass of many different stocks' data because no mathematical model can work on an individual business basis (due to non-systematic risk)
+And also a long timeframe of data. Furthermore, you encounter problems when trying to incorporate macroeconomic data that updates at different rates.
+
+Instead, let's stray further away from the divine light of ben graham. Let's model the vix. 
+Implied volatility is just a cumulative human geist, up to the whims, demand, and supply of the options traders. It does kind of track with realized vol tho. 
+Technical analysis is trash. Not even the world's most powerful AI can make money day trading. But can it make money by predicting the actions of day traders?
+
+PREDICTORS:
+vix (30 day implied vol) 
+	(need to make stationary?)
+prev 30 day historic vol
+	(need to make stationary?)
+2yr - 10yr treasury rate (maybe use least squared error of 2yr, 5yr, 10yr, 20yr?) (daily change?)
+10 yr treasury rate (daily change?)
+daily change in oil prices
+daily change in S&P 500
+something to do with vix moving average, maybe differential
+
+TARGETS:
+probability of vix exceeding some value over the next x days (corresponding to some rate of return/margin of safety target)
+	could have multiple of these at different hurdle rates/days
+confidence of S&P being up/down tmr (if these two are in agreement then it is more likely and less predicted volatility) 
+	(not sure whether to include these, could also be above multiple hurdle rates, say, greater than 1% up/down)
+point estimate of next day vix
+point estimate of next day change in S&P 500 (probably worthless, but would make a nice graph)
+
+momentum?
+
+
+how to change vix to being stationary? retain information on absolute level?
+
+
