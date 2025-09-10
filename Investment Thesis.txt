@@ -31,4 +31,12 @@ momentum?
 
 how to change vix to being stationary? retain information on absolute level?
 
-
+SUMMARY STATISTICS & BACKTESTING (what is the vix, what simple strategies would have worked in the past)
+TRADING STRATEGY DESIGN (both theoretical and practical implementation, why certain predictors/targets, correlation vs dispersion vs cointegration)
+DATABASE MANAGEMENT (use sql to save data for offline work)
+MODEL DEVELOPMENT (input/output preprocessing ala minmax scaling or normalisation, random forest?, model design, hyperparameter tuning, output visualisation) 
+TRADE EXECUTION (automated or no? how to calculate returns based on how it would be practically used)
+RISK MODELLING (max downside, sharpe ratio (yuck), correlation with market indicies, financial risk, crowding out from bigger-players risk)
+QUALITY ASSURANCE (model validation, test for weakness, spurious results, emulated new data, anticipated loss to brokerage, required activity)
+DATA ANALYTICS (both of model features and of results, perhaps create a ranking system of different models from their traits)
+PUBLISHING & SCIENCE COMMUNICATION (power bi dashboard, powerpoint/youtube presentation, documentation in github, making code readable, csv export?)
